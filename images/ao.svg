@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <path d="M0 0h720v480H0z"/>
+  <path fill="#CC092F" d="M0 0h720v240H0z"/>
+  <marker id="a" markerHeight="16" markerWidth="24" orient="auto" refX="11">
+    <path fill="#FFCB00" d="M23 1H1L0 16h24z"/>
+  </marker>
+  <g fill="none">
+    <path marker-mid="url(#a)" d="m345 86 49 15 39 32 24 44 6 53-15 49-31 39-46 25-49 6-46-12-41-30"/>
+    <path stroke="#FFCB00" stroke-width="18" d="M355 108a112 112 0 1 1-93 197"/>
+  </g>
+  <path d="m393 295 42 32h-44l-52-32z"/>
+  <path fill="#FFCB00" d="M313 165h76l-62 45 24-73 24 73zm129 176-115-87-1 1 115 88-7 9-112-72q-36-21-23-50l5-13q4 20 39 44l101 77zm29 23a2 2 0 1 1-1 0m-6-5a2 2 0 1 1-1 0m-6-6a2 2 0 1 1-1 0m24 14-34-27-10 13 31 22a10 9 45 1 0 13-8z"/>
+</svg>
