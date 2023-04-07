@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <path fill="#c8102e" d="M0 0h720v480H0z"/>
+  <path fill="#43b02a" stroke="#fff" stroke-width="80" d="M-81-25v529L800-25v529z"/>
+  <circle cx="359.5" cy="239.5" r="136.3" fill="#fff"/>
+  <path id="s" fill="#C8102E" stroke="#43B02A" stroke-width="3.6" d="m360 140 8 14h17l-9 15 9 15h-17l-9 14-8-14h-17l9-15-9-15h17z"/>
+  <use href="#s" y="106" x="-61.5"/>
+  <use href="#s" y="106" x="61"/>
+</svg>
