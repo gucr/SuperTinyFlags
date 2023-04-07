@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#fcd116" viewBox="0 0 720 480">
+  <path fill="#ce1126" d="M0 0h720v480H0z"/>
+  <path fill="#007a5e" d="M60 67h600v346H60Z"/>
+  <path d="M60 67h600L60 413h600Z"/>
+  <circle cx="360" cy="240" r="57.6" fill="#ce1126"/>
+  <path fill="#ce1126" d="M122 231q10 23 9 43-15-8-33-30z"/>
+  <path d="M86 194c11 22-28 74 35 87q-13-21-10-43 21 10 31 31c22-60-42-55-56-75z"/>
+  <marker id="a" markerHeight="55" markerWidth="60">
+    <path id="b" d="M30 0 12 56l48-34H0l48 34L30 0Z"/>
+  </marker>
+  <path fill="none" marker-mid="url(#a)" d="M0 2.5h170 160 160V415H330 170Z"/>
+  <use x="182" y="110" href="#b" transform="scale(1.7)"/>
+</svg>
