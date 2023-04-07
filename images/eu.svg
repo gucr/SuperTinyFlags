@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
-  <path fill="#034EA2" d="M-.8 0h720v480H-.8z"/>
+  <path fill="#034EA2" d="M0 0h720v480H0z"/>
   <marker id="a" markerHeight="50" markerWidth="50">
     <path fill="#FFF200" d="m25 0 15 47L0 18h50L10 47"/>
   </marker>
