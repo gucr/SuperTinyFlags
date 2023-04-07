@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <path fill="#046a38" d="M0 0h720v481H0V0z"/>
+  <g fill="none" stroke-width="40">
+    <path stroke="#000" d="M0 240h720M360 480V0"/>
+    <path stroke="#fff" d="M0 280h720M400 480V0"/>
+    <path stroke="#ffcd00" d="M720 200H0M320 0v480"/>
+  </g>
+  <circle cx="360" cy="240" r="120" fill="#d50032"/>
+  <marker id="a" markerHeight="50" markerWidth="50" orient="auto" refX="16">
+    <path fill="#046a38" stroke="#000" stroke-width=".8" d="m16 0-4 12H0l10 7-4 12 10-7 9 7-3-12 10-7H19z"/>
+  </marker>
+  <path fill="none" marker-mid="url(#a)" d="m360 133 62 20 39 54v66l-39 53-62 20-63-20-39-53v-66l39-54zz"/>
+  <g stroke="#000" stroke-width=".5">
+    <path fill="#9063CD" d="m367 180a14 11 5 10-19 15 50 53 0 0016 82l29-66z"/>
+    <path fill="#046A38" d="m343 204t23 50l-3 21-10-7q-3 20 14 19a17 60-15 10-5-92l-16 0z"/>
+    <path fill="#9c4a00" d="m329 298q-5-24 12-8h48q6 3 0 8z"/>
+    <path fill="#FFCD00" d="m337 199q-6-16 7-14 9 11-5 10z"/>
+  </g>
+</svg>
