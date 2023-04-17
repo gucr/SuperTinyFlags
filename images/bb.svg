@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
-  <path fill="#00267f" d="M0 0h720v480H0z"/>
-  <path fill="#ffc726" d="M240 0h240v480H240z"/>
-  <path id="a" d="M360 357V124Q375 166 393 184 383 181 373 181V271L399 275Q402 227 419 189 427 177 409 185 428 164 461 157 466 156 462 161 415 233 416 299L373 293V357Z"/>
-  <use href="#a" transform="scale(-1 1) translate(-720)"/>
-</svg>

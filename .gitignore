@@ -1,1 +1,12 @@
-/todo/
+*.log
+
+node_modules
+dist
+
+package-lock.json
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+

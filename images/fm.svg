@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
-  <path fill="#6797d6" d="M0 0h720v480H0z"/>
-  <marker id="a" markerHeight="99" markerWidth="99" orient="auto" refX="51">
-    <path fill="#fff" d="M50 0 19 89l80-55H1l80 55Z"/>
-  </marker>
-  <path fill="none" marker-mid="url(#a)" d="m360 48 202 192-202 194-202-194ZZ"/>
-</svg>
