@@ -21,7 +21,7 @@ export default ({colors = [], count}: Props) => {
       return <path
         key={i}
         stroke={colors[i % colors.length]}
-        d={`M ${x} 0 ${x} ${flag.height}}`}
+        d={`M ${x} 0 ${x} ${flag.height}`}
       />
     })}
   </g>
