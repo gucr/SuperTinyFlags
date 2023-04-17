@@ -9,25 +9,33 @@ interface Props extends SVGProps<SVGGElement> {
   /* If you wish to repeat the stripes for a greater amount than there is colors (eg. US flag) */
   count?: number
   /* A children SVG node that will be inserted at the end of the <g> group */
-  children?: ReactNode
+  children?: ReactNode,
+  // The X starting position
+  x1?: number
+  // The X ending position
+  x2?: number
+  // The Y starting position
+  y1?: number
+  // The Y ending position
+  y2?: number
 }
 
-export default ({colors = [], count, children, ...props}: Props) => {
+export default ({colors = [], count, children, x1 = 0, x2 = flag.width, y1 = 0, y2 = flag.height, ...props}: Props) => {
 
   const numberOfStripes = count || colors.length
-  const stripeHeight = Math.ceil(flag.height / numberOfStripes)
+  const stripeHeight = Math.ceil((y2 - y1) / numberOfStripes)
 
   const pathsByColor: { [key: string]: string[] } = {};
 
   [...Array(numberOfStripes)].forEach((_, i) => {
-    const y = stripeHeight * i + stripeHeight / 2
+    const y = (stripeHeight * i + stripeHeight / 2) + y1
     const color = colors[i % colors.length]
 
-    if(!pathsByColor[color]) {
+    if (!pathsByColor[color]) {
       pathsByColor[color] = []
     }
 
-    pathsByColor[color].push(`M ${0} ${y} ${flag.width} ${y}`)
+    pathsByColor[color].push(`M ${x1} ${y} ${x2} ${y}`)
   })
 
   return <g strokeWidth={stripeHeight} {...props}>
