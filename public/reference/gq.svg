@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <path fill="#e32118" d="M0 0h720v480H0z"/>
+  <path fill="#fff" d="M0 0h720v320H0z"/>
+  <path fill="#3e9a00" d="M0 0h720v160H0z"/>
+  <path fill="#0073ce" d="M0 0v480l180-240z"/>
+  <g id="a" stroke="#000">
+    <marker id="b" markerHeight="16" markerWidth="16" orient="auto">
+      <path fill="#ff0" d="m7 0 2 4h4l-2 4 2 3H9l-2 4-2-4H1l2-3-2-4h4z"/>
+    </marker>
+    <path fill="#ddd" d="M360 192h-38v79c0 28 35 6 38 22"/>
+    <path fill="#a36629" d="M361 220h-2v8l-6-8v5q10 9-3 53 0 3 4 2 3 3 6 0"/>
+    <path fill="none" d="m347 291-1 8m-32-29-5 7m51 23q-18 0-20-4v11q1 4 20 4m-57-27q3 16 37 18v-6c-3-5 9-2 7-7q-32 5-41-18l-3 13m2-8c-9-4-2-10-1-24 5 9 11 10 10 18-4-1-6-5-8 1"/>
+  </g>
+  <use href="#a" transform="matrix(-1 0 0 1 720 0)"/>
+  <path fill="none" marker-mid="url(#b)" d="m291 188 13-8 20-6 20-4 20-1 21 2 20 5 13 7"/>
+  <path fill="#090" stroke="#000" d="m341 221q-4-10 9-15 10-17 21 2 28-4 18 18-17 4-32-5-8 16-15 10-28-1-1-10"/>
+</svg>

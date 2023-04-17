@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <g stroke-width="120">
+    <path stroke="#d21034" d="M360 0v480" />
+
+    <path stroke="#003082" d="M720 60H0" />
+    <path stroke="#fff" d="M720 180H0" />
+    <path stroke="#289728" d="M720 300H0" />
+    <path stroke="#ffce00" d="M720 420H0" />
+  </g>
+  <path fill="#ffce00" d="m120 11 32 98-83-60h102l-83 60z" />
+</svg>
