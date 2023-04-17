@@ -5,7 +5,7 @@ import {hashCode} from './helpers'
 interface Props extends SVGProps<SVGMarkerElement> {
   path: string,
   children: ReactNode
-  pathProps: SVGProps<SVGPathElement>
+  pathProps?: SVGProps<SVGPathElement>
 }
 
 export default ({path = '', pathProps = {}, ...props}:Props) => {
