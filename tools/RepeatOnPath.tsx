@@ -8,7 +8,7 @@ interface Props extends SVGProps<SVGMarkerElement> {
   pathProps: SVGProps<SVGPathElement>
 }
 
-export default ({path = '', pathProps = {}, ...props}) => {
+export default ({path = '', pathProps = {}, ...props}:Props) => {
 
   const id = hashCode(path)
 

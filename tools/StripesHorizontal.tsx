@@ -1,7 +1,6 @@
 import {flag} from '../src/globals'
 import * as React from 'react'
 import {ReactNode, SVGProps} from 'react'
-import st from '../flags/st'
 
 
 interface Props extends SVGProps<SVGGElement> {

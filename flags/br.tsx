@@ -7,8 +7,7 @@ import SvgWrapper from '../tools/SvgWrapper'
 import Square from '../tools/Square'
 import Circle from '../tools/Circle'
 import Star from '../tools/Star'
-import Pa from './pa'
-import RepeatOnPath from '../tools/RepeatOnPath'
+
 
 export default () => <SvgWrapper fill="none">
 

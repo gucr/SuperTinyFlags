@@ -4,7 +4,6 @@
  */
 import React from 'react'
 import SvgWrapper from '../tools/SvgWrapper'
-import StripesHorizontal from '../tools/StripesHorizontal'
 import StripesVertical from '../tools/StripesVertical'
 import PentaStar from '../templates/PentaStar'
 
