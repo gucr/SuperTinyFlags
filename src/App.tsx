@@ -4,6 +4,7 @@ import {useEffect, useRef, useState} from 'react'
 import styled from 'styled-components'
 import {renderToStaticMarkup} from 'react-dom/server'
 import {optimize} from 'svgo'
+import FlagsList from './FlagsList'
 
 
 type Command = [
@@ -35,6 +36,9 @@ function App() {
 
   if (requestedFlag) {
     return <FlagDetails flagCode={requestedFlag}/>
+  }
+  else {
+    return <FlagsList/>
   }
 
 
@@ -223,18 +227,7 @@ const Wrapper = styled.div`
   position: relative;
 `
 
-const FlagLine = styled.a`
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  column-gap: 10px;
-  
-  > * {
-    height: 100px;
-    font-size: 16px;
-    font-family: Monaco;
-  }
-`
+
 
 const Header = styled.div`
   height: 40px;
