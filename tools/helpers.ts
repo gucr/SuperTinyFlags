@@ -55,10 +55,10 @@ interface MatrixProps {
 }
 
 export const matrix = ({
-  scaleX = 0,
+  scaleX = 1,
   shearX = 0,
   shearY = 0,
-  scaleY = 0,
+  scaleY = 1,
   offsetX = 0,
   offsetY = 0,
 }: MatrixProps) => {
