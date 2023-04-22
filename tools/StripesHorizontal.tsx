@@ -5,7 +5,7 @@ import {ReactNode, SVGProps} from 'react'
 
 interface Props extends SVGProps<SVGGElement> {
   /* An array containing all the successive colors.*/
-  colors: string|null[]
+  colors: (string|null)[]
   /* If you wish to repeat the stripes for a greater amount than there is colors (eg. US flag) */
   count?: number
   /* A children SVG node that will be inserted at the end of the <g> group */
