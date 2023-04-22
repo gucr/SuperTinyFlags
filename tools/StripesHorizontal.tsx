@@ -23,7 +23,7 @@ interface Props extends SVGProps<SVGGElement> {
 export default ({colors = [], count, children, x1 = 0, x2 = flag.width, y1 = 0, y2 = flag.height, ...props}: Props) => {
 
   const numberOfStripes = count || colors.length
-  const stripeHeight = Math.round((y2 - y1) / numberOfStripes *10) / 10
+  const stripeHeight = Math.ceil((y2 - y1) / numberOfStripes *10) / 10
 
   const pathsByColor: { [key: string]: string[] } = {};
 
