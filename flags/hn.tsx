@@ -6,7 +6,6 @@ import React from 'react'
 import SvgWrapper from '../tools/SvgWrapper'
 import Square from '../tools/Square'
 import RepeatOnPath from '../tools/RepeatOnPath'
-import PentaStar from '../templates/PentaStar'
 import Star from '../tools/Star'
 
 export default () => <SvgWrapper fill="#18C3DF">

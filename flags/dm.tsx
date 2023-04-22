@@ -7,7 +7,6 @@ import SvgWrapper from '../tools/SvgWrapper'
 import Square from '../tools/Square'
 import Cross from '../tools/Cross'
 import Circle from '../tools/Circle'
-import PentaStar from '../templates/PentaStar'
 import RepeatOnPath from '../tools/RepeatOnPath'
 import Star from '../tools/Star'
 
