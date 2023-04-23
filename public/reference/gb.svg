@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 720 480">
+  <style>
+    .st2{fill:#c8202f}
+  </style>
+  <path fill="#222d65" d="M0 0h720v480H0z"/>
+  <path fill="none" stroke="#fff" stroke-width="91.07" d="M720 0 0 480M0 0l720 480"/>
+  <path d="m0 480 360-240v36.5L54.7 480H0zM0 36.5 305.3 240H360L0 0v36.5zM414.7 240H360l360 240v-36.5L414.7 240zM665.3 0 360 203.5V240L720 0h-54.7z" class="st2"/>
+  <path d="M-14.4 176h316.8V-16h115.2v192h316.8v128H417.6v192H302.4V304H-14.4z" class="st2"/>
+  <path fill="none" stroke="#fff" stroke-width="30.36" d="M-14.4 176h316.8V-16h115.2v192h316.8v128H417.6v192H302.4V304H-14.4z"/>
+</svg>
